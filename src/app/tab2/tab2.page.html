@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Search For People
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,16 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">Search For People</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-item>
+    <ion-label position="floating">Search for a person</ion-label>
+    <ion-input [(ngModel)]="search" (ngModelChange)="onSearch($event)"></ion-input>
+  </ion-item>
+
+  <ion-accordion-group class="people-list">
+    <app-person *ngFor="let person of people" [person]="person" (onGiveBack)="giveBack($event)"></app-person>
+  </ion-accordion-group>
 </ion-content>

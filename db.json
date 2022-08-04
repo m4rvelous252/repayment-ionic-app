@@ -1,0 +1,40 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Phi",
+      "gifted": 500000,
+      "givenBack": 1000000
+    },
+    {
+      "name": "Lâm Phương",
+      "gifted": 1000000,
+      "givenBack": 0,
+      "id": 2
+    },
+    {
+      "name": "Hoàng",
+      "gifted": 5000000,
+      "givenBack": 1000000,
+      "id": 3
+    },
+    {
+      "name": "Kiều",
+      "gifted": 2000000,
+      "givenBack": 2000000,
+      "id": 4
+    },
+    {
+      "name": "Long",
+      "gifted": 5000000,
+      "givenBack": 0,
+      "id": 5
+    },
+    {
+      "name": "Huy",
+      "gifted": 10000000,
+      "givenBack": 10000000,
+      "id": 6
+    }
+  ]
+}

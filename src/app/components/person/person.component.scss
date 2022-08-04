@@ -1,0 +1,22 @@
+.give-back{
+  display: flex;
+}
+
+.label{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paid {
+  background-color: var(--ion-color-primary-shade);
+}
+
+.item.paid {
+  --ion-color-base: transparent !important;
+}
+
+.item .item-native {
+  --background: transparent !important;
+}
